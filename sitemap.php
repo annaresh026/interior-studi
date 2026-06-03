@@ -3,12 +3,79 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Карта сайта - Студия дизайна интерьеров</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта сайта - Студия дизайна интерьера</title>
     <link rel="stylesheet" href="<?= $css_file ?>">
 </head>
+<style>
+    .sitemap-intro {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #555;
+    }
+
+    .sitemap-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 30px;
+    }
+
+    .sitemap-section {
+        background: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        border-left: 4px solid #2c5e2c;
+    }
+
+    .sitemap-section h3 {
+        margin: 0 0 15px 0;
+        color: #2c5e2c;
+        font-size: 18px;
+    }
+
+    .sitemap-section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .sitemap-section li {
+        margin-bottom: 10px;
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .sitemap-section li:before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: #2c5e2c;
+    }
+
+    .sitemap-section a {
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .sitemap-section a:hover {
+        color: #2c5e2c;
+        text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+        .sitemap-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .sitemap-section {
+            padding: 15px;
+        }
+    }
+</style>
 <body>
 <header>
-    <h1>Студия дизайна интерьеров "ИнтерьерМастер"</h1>
+    <h1>Студия дизайна интерьера "ИнтерьерАрт"</h1>
     <nav>
         <a href="index.php">Главная</a>
         <a href="about.php">О нас</a>
@@ -54,17 +121,17 @@
         <div class="sitemap-section">
             <h3>Статьи</h3>
             <ul>
-                <li>Модные тенденции 2026 года</li>
-                <li>Как выбрать цветовую гамму для маленькой квартиры</li>
-                <li>Зонирование пространства в студии</li>
-                <li>Экодизайн: натуральные материалы</li>
-                <li>Освещение в интерьере</li>
+                <li><a href="article.php?id=1">Модные тенденции 2026 года в дизайне интерьеров</a></li>
+                <li><a href="article.php?id=2">Как выбрать цветовую гамму для маленькой квартиры</a></li>
+                <li><a href="article.php?id=3">Зонирование пространства в студии</a></li>
+                <li><a href="article.php?id=4">Экодизайн: натуральные материалы в интерьере</a></li>
+                <li><a href="article.php?id=5">Освещение в интерьере: основные правила</a></li>
             </ul>
         </div>
     </div>
 </div>
 <footer>
-    <p>© 2026 Студия дизайна интерьеров "ИнтерьерМастер". Все права защищены.</p>
+    <p>© 2026 Студия дизайна интерьера "ИнтерьерАрт". Все права защищены.</p>
 </footer>
 </body>
 </html>

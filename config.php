@@ -2,10 +2,10 @@
 session_start();
 
 // Подключение к базе данных
-$host = 'localhost';
-$dbname = 'interior_studio';
-$username = 'root';
-$password = '';
+$host = 'sql307.infinityfree.com';
+$dbname = 'if0_42077542_interier';
+$username = 'if0_42077542';
+$password = 'N75DbcZaFT1WAF';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);

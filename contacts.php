@@ -3,12 +3,13 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Контакты - Студия дизайна интерьеров</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Студия дизайна интерьера</title>
     <link rel="stylesheet" href="<?= $css_file ?>">
 </head>
 <body>
 <header>
-    <h1>Студия дизайна интерьеров "ИнтерьерМастер"</h1>
+    <h1>Студия дизайна интерьера "ИнтерьерАрт"</h1>
     <nav>
         <a href="index.php">Главная</a>
         <a href="about.php">О нас</a>
@@ -39,7 +40,7 @@
             <p>+7 (495) 123-45-67</p>
             
             <h3>Email</h3>
-            <p>info@interiormaster.ru</p>
+            <p>info@interiorart.ru</p>
             
             <h3>Режим работы</h3>
             <p>Пн-Пт: 10:00 - 20:00<br>Сб: 11:00 - 18:00<br>Вс: выходной</p>
@@ -57,7 +58,7 @@
     </div>
 </div>
 <footer>
-    <p>© 2026 Студия дизайна интерьеров "ИнтерьерМастер". Все права защищены.</p>
+    <p>© 2026 Студия дизайна интерьера "ИнтерьерАрт". Все права защищены.</p>
 </footer>
 </body>
 </html>

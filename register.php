@@ -34,12 +34,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Регистрация - Студия дизайна интерьеров</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация - Студия дизайна интерьера</title>
     <link rel="stylesheet" href="<?= $css_file ?>">
 </head>
 <body>
 <header>
-    <h1>Студия дизайна интерьеров "ИнтерьерМастер"</h1>
+    <h1>Студия дизайна интерьера "ИнтерьерАрт"</h1>
     <nav>
         <a href="index.php">Главная</a>
         <a href="about.php">О нас</a>
@@ -69,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <p style="margin-top: 20px;">Уже есть аккаунт? <a href="login.php">Войдите</a></p>
 </div>
 <footer>
-    <p>© 2026 Студия дизайна интерьеров "ИнтерьерМастер". Все права защищены.</p>
+    <p>© 2026 Студия дизайна интерьера "ИнтерьерАрт". Все права защищены.</p>
 </footer>
 </body>
 </html>

@@ -222,4 +222,110 @@ footer {
         font-size: 14px;
         padding: 6px 12px;
     }
+
+.article-list {
+    display: block;
+}
+
+.article-info h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.article-info p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.read-more {
+    display: inline-block;
+    color: #2c5e2c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.article-image {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.article-image img {
+    max-width: 60%;
+    width: auto;
+    height: auto;
+    max-height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    display: block;
+    margin: 0 auto;
+}
+
+.date {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.article-content {
+    line-height: 1.8;
+    font-size: 16px;
+    color: #333;
+}
+
+.article-content p {
+    margin-bottom: 15px;
+}
+
+.article-content ul, .article-content ol {
+    margin: 15px 0 15px 25px;
+}
+
+.article-content li {
+    margin-bottom: 8px;
+}
+
+.article-content strong {
+    color: #2c5e2c;
+}
+    
+.article-content h3 {
+    margin: 25px 0 10px 0;
+    color: #2c5e2c;
+    font-size: 20px;
+}
+
+.project-details {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.project-price {
+    display: inline-block;
+    margin-top: 12px;
+    background: #2c5e2c;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    header h1, .hero h2, h2, h3 { font-size: 90%; }
+    .container, .contacts-grid, .services-grid, .portfolio-grid, .sitemap { grid-template-columns: 1fr !important; display: block !important; }
+    .feature-card, .service-card, .portfolio-item { margin-bottom: 15px; }
+    nav a { font-size: 12px; padding: 5px 8px; display: inline-block; }
+    .hero { padding: 20px; }
+    .article-image img { max-width: 100%; height: auto; }
+    input, textarea, button { font-size: 16px; }
+    .contacts-grid > div { margin-bottom: 20px; }
+}
 }

@@ -3,12 +3,13 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Страница не найдена - 404</title>
     <link rel="stylesheet" href="<?= $css_file ?>">
 </head>
 <body>
 <header>
-    <h1>Студия дизайна интерьеров "ИнтерьерМастер"</h1>
+    <h1>Студия дизайна интерьера "ИнтерьерАрт"</h1>
     <nav>
         <a href="index.php">Главная</a>
         <a href="about.php">О нас</a>
@@ -25,7 +26,7 @@
     <a href="index.php" class="btn" style="display: inline-block; margin-top: 20px;">Вернуться на главную</a>
 </div>
 <footer>
-    <p>© 2026 Студия дизайна интерьеров "ИнтерьерМастер". Все права защищены.</p>
+    <p>© 2026 Студия дизайна интерьера "ИнтерьерАрт". Все права защищены.</p>
 </footer>
 </body>
 </html>
